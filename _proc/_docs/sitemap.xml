@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://heigum.github.io/nbdev-test/index.html</loc>
+    <lastmod>2023-02-08T09:46:50.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://heigum.github.io/nbdev-test/base.html</loc>
+    <lastmod>2023-02-08T10:41:29.593Z</lastmod>
+  </url>
 </urlset>

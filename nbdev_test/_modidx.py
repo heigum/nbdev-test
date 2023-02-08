@@ -5,4 +5,9 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://heigum.github.io',
                 'git_url': 'https://github.com/heigum/nbdev-test',
                 'lib_path': 'nbdev_test'},
-  'syms': {'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
+  'syms': { 'nbdev_test.base': { 'nbdev_test.base.HelloSayer': ('base.html#hellosayer', 'nbdev_test/base.py'),
+                                 'nbdev_test.base.HelloSayer.__init__': ('base.html#hellosayer.__init__', 'nbdev_test/base.py'),
+                                 'nbdev_test.base.HelloSayer.say': ('base.html#hellosayer.say', 'nbdev_test/base.py'),
+                                 'nbdev_test.base.foo': ('base.html#foo', 'nbdev_test/base.py'),
+                                 'nbdev_test.base.say_hello': ('base.html#say_hello', 'nbdev_test/base.py')},
+            'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
